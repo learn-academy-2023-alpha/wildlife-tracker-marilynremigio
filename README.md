@@ -34,9 +34,10 @@ Hint: Date is written in Active Record as yyyy-mm-dd (“2022-07-28")
 
 Acceptance Criteria
 
-[] Can see one animal with all its associated sightings
+[x] Can see one animal with all its associated sightings
 Hint: Checkout this example on how to include associated records
-[] Can see all the all sightings during a given time period
+
+[x] Can see all the all sightings during a given time period
 Hint: Your controller can use a range to look like this:
 class SightingsController < ApplicationController
   def index
@@ -44,6 +45,7 @@ class SightingsController < ApplicationController
     render json: sightings
   end
 end
+
 Hint: Be sure to add the start_date and end_date to what is permitted in your strong parameters method
 Hint: Utilize the params section in Postman to ease the developer experience
 Hint: Routes with params
