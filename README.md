@@ -60,11 +60,11 @@ Hint: Routes with params
 Acceptance Criteria
 Validations will require specs in spec/models and the controller methods will require specs in spec/requests.
 
-[] Can see validation errors if an animal doesn't include a common name and scientific binomial
-[] Can see validation errors if a sighting doesn't include latitude, longitude, or a date
-[] Can see a validation error if an animal's common name exactly matches the scientific binomial
-[] Can see a validation error if the animal's common name and scientific binomial are not unique
-[] Can see a status code of 422 when a post request can not be completed because of validation errors
+[x] Can see validation errors if an animal doesn't include a common name and scientific binomial
+[x] Can see validation errors if a sighting doesn't include latitude, longitude, or a date
+[x] Can see a validation error if an animal's common name exactly matches the scientific binomial
+[x] Can see a validation error if the animal's common name and scientific binomial are not unique
+[x] Can see a status code of 422 when a post request can not be completed because of validation errors
 Hint: Handling Errors in an API Application the Rails Way
 
 
