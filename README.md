@@ -74,6 +74,6 @@ Hint: Handling Errors in an API Application the Rails Way
 
 Acceptance Criteria
 
-[] Can create new animal along with sighting data in a single API request
+[x] Can create new animal along with sighting data in a single API request
 Hint: Look into accepts_nested_attributes_for
 
